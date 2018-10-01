@@ -1,0 +1,14 @@
+{
+  "name": "Ninja",
+  "version": "1.0",
+  "description": "Run scripts on multiple tabs at once.",
+  "permissions": [
+    "tabs",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "manifest_version": 2
+}
