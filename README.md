@@ -15,7 +15,14 @@ In the developer console, type in your function. For example:
 
 ```javascript
 ninja ({url:'google.com.au'},"alert('Hi!');");
+
+ninja ({url:'root.level.domain/*'},"(()=>{return somevalue})()").then(console.log);
 ```
+# Changelog
+v1.1: Added promise based return function.
+
+
 Hope this saves you some time.
 
 -S
+
